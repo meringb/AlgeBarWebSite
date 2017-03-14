@@ -40,14 +40,22 @@ hr {
   opacity: 0.3;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 img {
   max-width: 100%;
   height: auto;
   transition: all 0.3s ease-in;
 }
+
 img:hover {
-  cursor: pointer;
+  /*
+	cursor: pointer;
   opacity: 0.5;
+	*/
 }
 
 /* navigation */
@@ -192,8 +200,13 @@ img:hover {
   border: 1px solid #666;
   padding: 10px;
 }
+
 .aboutr h4 {
   padding-bottom: 10px;
+}
+
+.aboutr video {
+  padding: 10px;
 }
 
 /* about section */
@@ -216,6 +229,9 @@ img:hover {
 }
 .aboutl h4 {
   padding-bottom: 10px;
+}
+.aboutl video {
+  padding: 10px;
 }
 
 /* team section */
