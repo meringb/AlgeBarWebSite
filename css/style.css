@@ -152,16 +152,16 @@ img:hover {
 }
 
 /* service section */
-#service {
+.service {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-#service h2 {
+.service h2 {
   border-left: 2px solid #f2af00;
   display: inline-block;
   padding: 20px;
 }
-#service .fa {
+.service .fa {
   border-top: 3px solid #f2af00;
   border-bottom: 3px solid #dc5034;
   border-radius: 50%;
@@ -175,24 +175,46 @@ img:hover {
 }
 
 /* about section */
-.about {
+.aboutr {
   padding-top: 60px;
   padding-bottom: 80px;
 }
-.about h2 {
+.aboutr h2 {
   border-right: 2px solid #f2af00;
   display: inline-block;
   padding: 10px 20px 10px 10px;
 }
-.about .col-md-12 {
+.aboutr .col-md-12 {
   text-align: center;
   padding-bottom: 60px;
 }
-.about img {
+.aboutr img {
   border: 1px solid #666;
   padding: 10px;
 }
-.about h4 {
+.aboutr h4 {
+  padding-bottom: 10px;
+}
+
+/* about section */
+.aboutl {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.aboutl h2 {
+  border-left: 2px solid #f2af00;
+  display: inline-block;
+  padding: 10px 20px 10px 10px;
+}
+.aboutl .col-md-12 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.aboutl img {
+  border: 1px solid #666;
+  padding: 10px;
+}
+.aboutl h4 {
   padding-bottom: 10px;
 }
 
