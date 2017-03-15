@@ -182,55 +182,41 @@ img:hover {
   padding: 40px;
 }
 
-/* about section */
-.aboutr {
-  padding-top: 60px;
-  padding-bottom: 80px;
-}
-.aboutr h2 {
+.borderr h2 {
   border-right: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 20px 10px 10px;
-}
-.aboutr .col-md-12 {
-  text-align: center;
-  padding-bottom: 60px;
-}
-.aboutr img {
-  border: 1px solid #666;
-  padding: 10px;
 }
 
-.aboutr h4 {
-  padding-bottom: 10px;
+.borderl h2 {
+  border-left: 2px solid #f2af00;
 }
 
-.aboutr video {
-  padding: 10px;
+.borderb h2 {
+  border-bottom: 2px solid #f2af00;
 }
 
 /* about section */
-.aboutl {
+.about {
   padding-top: 60px;
   padding-bottom: 80px;
 }
-.aboutl h2 {
-  border-left: 2px solid #f2af00;
+.about h2 {
   display: inline-block;
   padding: 10px 20px 10px 10px;
 }
-.aboutl .col-md-12 {
+.about .col-md-12 {
   text-align: center;
   padding-bottom: 60px;
 }
-.aboutl img {
+.about img {
   border: 1px solid #666;
   padding: 10px;
 }
-.aboutl h4 {
+
+.about h4 {
   padding-bottom: 10px;
 }
-.aboutl video {
+
+.about video {
   padding: 10px;
 }
 
